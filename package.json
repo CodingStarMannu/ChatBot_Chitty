@@ -1,0 +1,26 @@
+{
+  "name": "chatbot_chitty",
+  "version": "1.0.0",
+  "description": "ChatBotAI using socket and openai",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Manoj_Pant",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "openai": "^4.19.0",
+    "readline-sync": "^1.4.10",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
